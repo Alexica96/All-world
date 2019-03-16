@@ -1,0 +1,149 @@
+.footer-color {
+  background-color: #273a43;
+}
+
+.footer-block {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 0px;
+  padding-top: 60px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.footer-block-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+}
+
+.footer-block-name h3 {
+  color: #ffdb47;
+  font-family: "MV Boli";
+  font-size: 22px;
+}
+
+.footer-block-name h4 {
+  color: white;
+  font-size: 22px;
+}
+
+.footer-logo {
+  background: url(/images/icons/spasskaya-tower.png) center center/contain no-repeat;
+  width: 40px;
+  height: 40px;
+  margin: 10px 10px 10px 0px;
+}
+
+.footer-block-info {
+  max-width: 300px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px 10px 50px 10px;
+}
+
+.footer-block-info p {
+  color: #c3c3c3;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer-block-img {
+  background: center center / contain no-repeat;
+  width: 25px;
+  height: 25px;
+  margin: 5px 20px 5px 0px;
+}
+
+.place-img {
+  background-image: url(/images/icons/placeholder.png);
+}
+
+.mail-img {
+  background-image: url(/images/icons/mail.png);
+}
+
+.phone-img {
+  background-image: url(/images/icons/telephone.png);
+}
+
+.footer-cont-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-cont-info-text {
+  color: white;
+  font-size: 13.5px;
+}
+
+.footer-date-text {
+  padding: 15px 0px 20px 0px;
+  color: #71b6d5;
+}
+
+.footer-block-bottom {
+  background-color: #172227;
+  width: 100%;
+  min-height: 90px;
+}
+
+.bottom-block {
+  color: white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 90px;
+  height: 100%;
+  padding-bottom: 10px;
+}
+
+.bottom-info {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px 10px 0px 10px;
+}
+
+.bottom-icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: center center / contain no-repeat;
+  margin: 5px;
+  background-color: white;
+}
+
+.bottom-info:nth-last-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  min-width: 200px;
+}
+
+.vk {
+  background-image: url(/images/social/vk.png);
+}
+
+.facebook {
+  background-image: url(/images/social/facebook.png);
+}
+
+.instagramm {
+  background-image: url(/images/social/instagram.png);
+}
+/*# sourceMappingURL=footer.css.map */

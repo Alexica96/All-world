@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.title-img {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 32, 134, 0.548))), url(/images/trips_images/top1.jpg) center center/cover;
+  background: linear-gradient(rgba(1, 32, 134, 0.548)), url(/images/trips_images/top1.jpg) center center/cover;
+}
+
+main {
+  padding: 50px 0px 100px 0px;
+}
+
+main h2 {
+  padding-bottom: 50px;
+}
+
+.tour-main-block {
+  width: 100%;
+}
+
+.tour-main-block p {
+  margin: 20px 0px 20px 0px;
+}
+
+.tour-img {
+  background: center center / cover;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 500px;
+      flex-basis: 500px;
+  min-height: 500px;
+}
+
+.img-1 {
+  background-image: url(../images/trips_images/3_01.jpg);
+}
+
+.img-2 {
+  background-image: url(../images/trips_images/2_02.jpg);
+}
+
+.img-3 {
+  background-image: url(../images/trips_images/3_03.jpg);
+}
+
+.img-4 {
+  background-image: url(../images/trips_images/2_04.jpg);
+}
+
+.tour-text-block {
+  background-color: #ffc155;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 500px;
+      flex-basis: 500px;
+  min-height: 400px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 40px 30px 30px 30px;
+  color: white;
+}
+
+.tour-text-block :nth-last-child(2), .tour-text-block :first-child {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.text-align {
+  text-align: end;
+}
+
+.margin-left {
+  margin-left: auto;
+}
+
+.tour-button {
+  background-color: #e7ad48;
+  width: 190px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+  text-transform: uppercase;
+  line-height: 50px;
+  border-radius: 2px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #cb8d21;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+
+.tour-button:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+  background: #709dca;
+  color: white;
+}
+
+.arrow-up-block {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  background-color: orange;
+  border: 2px solid gray;
+  right: 10px;
+  bottom: 120px;
+  cursor: pointer;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.arrow-up-block:hover {
+  background-color: lightgreen;
+}
+
+.arrow-up {
+  height: 20px;
+  width: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-top: 4px solid white;
+  border-left: 4px solid white;
+  border-radius: 3px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  position: absolute;
+  top: 15px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.arrow-up-hover {
+  border-top: 4px solid coral;
+  border-left: 4px solid coral;
+}
+
+@media (max-width: 1000px) {
+  .text-align {
+    text-align: left;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .tour-text-block {
+    height: 100%;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+  }
+  .margin-left {
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=style_trips.css.map */
